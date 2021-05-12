@@ -6,4 +6,4 @@
 - [Cross-Origin Resource Sharing](/HTTP/Cross-Origin%20Resource%20Sharing.md)
 
 ## 암호화
-- [SSH](/암호화/SSH.md)
+- [SSH의 암호화 방식](/암호화/SSH의%20암호화%20방식.md)
