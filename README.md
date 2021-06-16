@@ -1,5 +1,6 @@
 ## 웹
 - [visibilitychange 이벤트](/웹/visibilitychange%20이벤트.md)
+- [script 태그의 async, defer 속성](/웹/script%20태그의%20async,%20defer%20속성.md)
 
 ## HTTP
 - [Strict-Transport-Security](/HTTP/Strict-Transport-Security.md)
