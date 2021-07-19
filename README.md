@@ -15,3 +15,6 @@
 
 ## Java
 - [자바 입문](/Java/자바%20입문/index.md)
+
+## Javascript
+- [프로토타입](/Javascript/프로토타입.md)
