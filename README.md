@@ -14,7 +14,7 @@
 - [SSH의 암호화 방식](/암호화/SSH의%20암호화%20방식.md)
 
 ## Java
-- [자바 입문](/Java/자바%20입문/index.md)
+- [자바 입문 (programmers)](/Java/자바%20입문%20(programmers)/index.md)
 
 ## Javascript
 - [프로토타입](/Javascript/프로토타입.md)
