@@ -22,3 +22,6 @@
 
 ## Javascript
 - [프로토타입](/Javascript/프로토타입.md)
+
+## Typescript
+- [object의 특정 keys만 인자로 받기](/Typescript/object의%20특정%20keys만%20인자로%20받기.md)
