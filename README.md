@@ -7,6 +7,9 @@
 ## 네트워크
 - [HTTP](/네트워크/HTTP/index.md)
 
+## 데이터베이스
+- [strong consistency vs eventual consistency](/데이터베이스/strong%20consistency%20vs%20eventual%20consistency.md)
+
 ## HTTP
 - [Strict-Transport-Security](/HTTP/Strict-Transport-Security.md)
 - [Cross-Origin Resource Sharing](/HTTP/Cross-Origin%20Resource%20Sharing.md)
