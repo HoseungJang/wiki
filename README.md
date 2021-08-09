@@ -8,6 +8,7 @@
 - [HTTP](/네트워크/HTTP/index.md)
 
 ## 데이터베이스
+- [데이터베이스 기초](/데이터베이스/데이터베이스%20기초/index.md)
 - [strong consistency vs eventual consistency](/데이터베이스/strong%20consistency%20vs%20eventual%20consistency.md)
 
 ## HTTP
