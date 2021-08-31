@@ -10,6 +10,7 @@
 ## 데이터베이스
 - [데이터베이스 기초](/데이터베이스/데이터베이스%20기초/index.md)
 - [strong consistency vs eventual consistency](/데이터베이스/strong%20consistency%20vs%20eventual%20consistency.md)
+- [Redis](/데이터베이스/Redis/index.md)
 
 ## HTTP
 - [Strict-Transport-Security](/HTTP/Strict-Transport-Security.md)
