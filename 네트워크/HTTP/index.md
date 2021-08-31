@@ -1,0 +1,2 @@
+- [Strict-Transport-Security](/네트워크/HTTP/Strict-Transport-Security.md)
+- [Cross-Origin Resource Sharing](/네트워크/HTTP/Cross-Origin%20Resource%20Sharing.md)
