@@ -23,3 +23,4 @@
 
 ## Typescript
 - [object의 특정 keys만 인자로 받기](/Typescript/object의%20특정%20keys만%20인자로%20받기.md)
+- [Empty Object Type](/Typescript/Empty%20Object%20Type.md)
