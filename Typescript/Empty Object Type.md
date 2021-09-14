@@ -28,3 +28,9 @@ const z: AAA = { aaa: { asdf: 12341242344 } };
 ```typescript
 type EmptyObject = Record<string, never>; // { [key: string]: never } 랑 똑같다.
 ```
+
+단, intersection type에선 {}가 "nullish하지 않은 그 어떤 값도 허용"을 의미하지 않으므로, 그냥 써도 안전하다. (예를 들면 React props)
+
+```typescript
+type Props = React.PropsWithChildren<{}>; // { children?: ReactNode }
+```
