@@ -21,7 +21,9 @@ const y: AAA = { aaa: "fasdfadsf" };
 const z: AAA = { aaa: { asdf: 12341242344 } };
 ```
 
-놀랍게도 [실제로 해보면](https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgILuQbwFDOXAgLiwF8BubE7bBAexAGcxkAPY9VZAXi3yOTBQArinI16TZAE92GHpj5xiAIngMAJvHUMYy5GLqNmAL1md5i4grgaYxAIwAmAMwAWJ65evX+-RSA) 진짜 타입에러가 안난다.
+[Typescript Playground](https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgILuQbwFDOXAgLiwF8BubE7bBAexAGcxkAPY9VZAXi3yOTBQArinI16TZAE92GHpj5xiAIngMAJvHUMYy5GLqNmAL1md5i4grgaYxAIwAmAMwAWJ65evX+-RSA)
+
+(놀랍게도 진짜 타입에러가 안난다.)
 
 따라서 empty object를 타입으로 쓰고싶으면, 아래처럼 해야한다.
 
@@ -29,7 +31,20 @@ const z: AAA = { aaa: { asdf: 12341242344 } };
 type EmptyObject = Record<string, never>; // { [key: string]: never } 랑 똑같다.
 ```
 
-단, intersection type에선 {}가 "nullish하지 않은 그 어떤 값도 허용"을 의미하지 않으므로, 그냥 써도 안전하다. (예를 들면 React props)
+단, intersection type에선 {}가 "nullish하지 않은 그 어떤 값도 허용"을 의미하지 않는다.
+
+
+```typescript
+const a: {} & true = true;
+const b: {} & true = {}; // 타입 에러
+const c: {} & { asdf: number } = {};
+const d: {} & { asdf: number } = { asdf: 1234 };
+const e: {} & { asdf: number } = { qwer: "asdf" }; // 타입 에러
+```
+
+[Typescript Playground](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAhgLhgbwL4wGQygJwK4CmMAvNvgQNwBQoksARkmpmYSSqhTAPTcyADC4FDxmIAXRwDftNcNBjAm6LMngQAJgDMkYPAFt6BHDHSk0XXgOHjJdGMrktFcFepiadeg+3uOkARgBMAZgAWA2paaQJbBSU1DW1dfUMUGABHAHc9JAAiBzVMkJ4+IVEJIA)
+
+따라서 특정 상황에서는 {}를 써도 문제되지 않는다. (예를 들면 React props)
 
 ```typescript
 type Props = React.PropsWithChildren<{}>; // { children?: ReactNode }
