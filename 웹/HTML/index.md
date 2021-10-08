@@ -1,0 +1,1 @@
+- [script 태그의 async, defer 속성](/웹/HTML/script%20태그의%20async,%20defer%20속성.md)
