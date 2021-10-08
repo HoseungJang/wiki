@@ -2,7 +2,7 @@
 - [HTML](/프론트엔드/HTML/index.md)
 - [CSS](웹/CSS/index.md)
 - [Javascript](/프론트엔드/Javascript/index.md)
-- [Critical Rendering Path](/프론트엔드/Critical%20Rendering%20Path.md)
+- [브라우저](/프론트엔드/브라우저/index.md)
 
 ## 네트워크
 - [HTTP](/네트워크/HTTP/index.md)
