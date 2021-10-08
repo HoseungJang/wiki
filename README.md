@@ -1,8 +1,8 @@
-## 웹
-- [HTML](/웹/HTML/index.md)
+## 프론트엔드
+- [HTML](/프론트엔드/HTML/index.md)
 - [CSS](웹/CSS/index.md)
-- [Javascript](/웹/Javascript/index.md)
-- [Critical Rendering Path](/웹/Critical%20Rendering%20Path.md)
+- [Javascript](/프론트엔드/Javascript/index.md)
+- [Critical Rendering Path](/프론트엔드/Critical%20Rendering%20Path.md)
 
 ## 네트워크
 - [HTTP](/네트워크/HTTP/index.md)

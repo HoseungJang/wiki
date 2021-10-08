@@ -1,1 +1,0 @@
-- [visibilitychange 이벤트](/웹/Javascript/visibilitychange%20이벤트.md)

@@ -49,7 +49,7 @@ DOM 트리는 HTML이 Javascript가 사용할 수 있는 Object로 파싱된 프
 
 위 HTML이 파싱되면 아래와 같은 DOM 트리가 생성된다.
 
-![](/웹/images/dom.png)
+![](/프론트엔드/images/dom.png)
 
 ## CSSOM 트리 생성
 HTML을 파싱하는 과정에서 CSS도 마주치게 되는데, CSS는 HTML처럼 파싱되어 트리 형태의 CSSOM으로 만들어진다.
@@ -70,21 +70,21 @@ footer { display: none; }
 
 [위 HTML 예제](#dom-트리-생성)에 이와 같은 CSS를 적용하면, 아래와 같은 CSSOM이 생성된다.
 
-![](/웹/images/cssom.png)
+![](/프론트엔드/images/cssom.png)
 
 CSS는 파싱되는 동안 렌더링을 차단한다.
 
 ## Javascript 실행
 Javascript의 실행은 HTML 파싱을 차단한다. 따라서 문서를 참조하는 Javascript 코드가 존재하는 경우, 반드시 script 태그가 해당 문서보다 아래에 위치해야 한다.
 
-Javascript가 HTML 파싱을 차단하는 것을 피하기 위해 [async 또는 defer 속성](/웹/script%20태그의%20async,%20defer%20속성.md)을 script 태그에 부여해줄 수 있다.
+Javascript가 HTML 파싱을 차단하는 것을 피하기 위해 [async 또는 defer 속성](/프론트엔드/script%20태그의%20async,%20defer%20속성.md)을 script 태그에 부여해줄 수 있다.
 
 ## 렌더 트리 생성
 렌더 트리는 DOM과 CSSOM이 합쳐져 최종적으로 렌더링할 내용을 나타내는 트리이다. 즉, 유저에게 보여지는 화면이 렌더 트리의 내용이다.
 
 위의 [DOM](#dom-트리-생성), [CSSOM](#cssom-트리-생성)은 결과적으로 아래와 같은 렌더 트리를 생성한다.
 
-![](/웹/images/render-tree.png)
+![](/프론트엔드/images/render-tree.png)
 
 ## 레이아웃 생성
 렌더 트리까지 다 만들어지면, 렌더 트리의 노드들을 화면에 어떻게 배치할지 정하는 레이아웃이 생성된다.
