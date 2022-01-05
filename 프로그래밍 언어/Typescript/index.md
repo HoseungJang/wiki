@@ -1,2 +1,3 @@
 - [object의 특정 keys만 인자로 받기](/프로그래밍%20언어/Typescript/object의%20특정%20keys만%20인자로%20받기.md)
 - [Empty Object Type](/프로그래밍%20언어/Typescript/Empty%20Object%20Type.md)
+- [Template Literal Types](/프로그래밍%20언어/Typescript/Template%20Literal%20Types.md)
