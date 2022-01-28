@@ -1,2 +1,3 @@
 - [프로토타입](/프로그래밍%20언어/Javascript/프로토타입.md)
 - [this](/프로그래밍%20언어/Javascript/this.md)
+- [call apply bind 차이](/프로그래밍%20언어/Javascript/call%20apply%20bind%20차이.md)
